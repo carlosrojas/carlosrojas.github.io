@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<!--
+    Plain-Academic by Vasilios Mavroudis
+    Released under the Simplified BSD License/FreeBSD (2-clause) License.
+    https://github.com/mavroudisv/plain-academic
+-->
+
+<html lang="en">
+<head>
+  <title>Carlos Rojas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="imgs/favicon.ico" type="image/icon type">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+</head>
+
+<style>
+  :root {
+      --primary-color: #1B6FC2;
+      --secondary-color: #536390;
+      --font-color: #23476A;
+      --bg-color: #FFFFFF;
+      --heading-color: #292922;
+  }
+  
+  [data-theme="dark"] {
+      --primary-color: #7ED4E5;
+      --secondary-color: #7ED4E5;
+      --font-color: #DADADA;
+      --bg-color: #181818;
+      --heading-color: #818cab;
+  }
+  ul {
+    list-style: none;
+  }
+  
+  hr {
+    display: block;
+    margin-top: 2.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: .5px;
+  }
+  
+  body {
+      background-color: var(--bg-color);
+      color: var(--font-color);
+  }
+  
+  a {
+      color: var(--primary-color);
+  }
+  a:hover {
+      color: var(--primary-color);
+  }
+  
+  /*Simple css to style it like a toggle switch*/
+  .theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+  
+    em {
+      margin-left: 10px;
+      font-size: 1rem;
+    }
+  }
+  
+  
+  .theme-switch {
+    display: inline-block;
+    top: 7px;
+    height: 27px;
+    right: 70px;
+    position: absolute;
+    width: 32px;
+  }
+  
+  .theme-switch input {
+    display:none;
+  }
+  
+  .slider {
+    background-color: #b3b3b3;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 12px;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: #FFFFFF;
+    top: 0;
+    content: "";
+    height: 15px;
+    left: 0px;
+    position: absolute;
+    transition: .4s;
+    width: 15px;
+  }
+  
+  input:checked + .slider {
+    background-color: #7ED4E5;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(17px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+</style>
+
+<body>
+
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse" role="navigation">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="#publications">Publications</a></li> 
+				  <li><a href="#teaching">Teaching</a></li> 
+				  <li><a href="#service">Service</a></li> 
+				  <li><a href="pdfs/2021_06_Carlos_Rojas_CV.pdf">CV</a></li> 
+		  </ul>
+      <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+      </label>
+    </div>
+		</div>
+	  </div>
+	</nav>
+  
+  <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Entries Column -->
+            <div class="col-md-8" >
+                
+                <!-- Main Image -->
+                <img class="img-responsive" src="imgs/me.jpg" alt=""><br>
+                <div style="margin-top:3%; text-align:justify;">                
+                  
+                <p>I am an Assistant Professor in the Computer Engineering Department at San José State University. I am interested in applying computational techniques to understand biological mechanisms. The tools I use to understand biological systems are data science tools such as machine learning and visualization.</p>
+                <p>I graduated from University of California, Davis with a B.S. and a Ph.D. in computer science. My thesis was in finding metrics to compare 3D shapes.</p>
+                </div>
+
+            </div> 
+
+            <!-- Contact Info on the Sidebar -->
+            <div class="col-md-4">
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Carlos Rojas</b></div><br>
+                <p>Assistant Professor<br>
+                   Computer Engineering<br>
+                   San Jose Staté University<br>
+                </p>
+
+                <br>
+                <p><b>Email: </b> carlos [dot] rojas [at] sjsu [dot] edu
+                <br>
+                <b>Office: </b> Zoom </p>
+
+            </div>
+            
+            <!-- Links on the Sidebar -->
+            <div class="col-md-4" style="margin-top:2%">
+              <dd><a href="https://scholar.google.com/citations?user=pDkgVewAAAAJ">Google Scholar</a></dd> 
+              <dd><a href="https://twitter.com/_carlosrojas_">Twitter</a></dd>
+              <dd><a href="https://github.com/carlosrojas">Github</a></dd>
+            </div>
+            
+            <!-- Publications -->
+            <div class="col-md-8">    
+                <h2 id="publications">Publications</h2>
+
+                  <!-- <li>  <br> <a href="" target="_blank">[PDF]</a></li> -->
+                
+                <h4>Conferece Papers</h4>
+                <ul>
+                  <li> Nina Amenta and Carlos Rojas. Dihedral Rigidity and Deformation. Computational Geometry, 2020. <br> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0925772120300511" target="_blank">[Link]</a></li> 
+                  <li> Nina Amenta, andCarlos Rojas. Dihedral Rigidity and Deformation.Canadian Conference on Computational Geometry, 2018 <br> <a href="https://arxiv.org/abs/1810.01546" target="_blank">[Link]</a> <a href="http://www.cs.umanitoba.ca/~cccg2018/papers/session4B-p2.pdf" target="_blank">[Paper]</a></li>
+                </ul>
+            
+                <h4>Posters</h4>
+                <ul>
+                  <li> Carlos Rojas, Alex Tsui, Stewart He, Lance Simons, Shengren Li, and Nina Amenta. Edge length interpolation. ACM Symposium on Solid and Physical Modeling, 2014. <br> <a href="pdfs/2014_Rojas_et_al_Edge_lenght.pdf" target="_blank">[Poster]</a> <a href="https://web.cs.ucdavis.edu/~amenta/pubs/eld.pdf" target="_blank">[Paper]</a></li>
+                  <li> Carlos Rojas, Minh N. Tran,  Linh  Huynh, and Fereydoun  Hormozdiari. Machine learning approaches for comparative genome structure analysis. American Society of Human Genetics, 2018. <br> <a href="pdfs/2018_Rojas_et_al_ML_Hi-C_Compare_ASHG.pdf" target="_blank">[Poster]</a></li>
+                  <li> Carlos Rojas, Scott Refugio. Automated Angiogenesis Quantification. UC Davis College of Engineering Senior Design Showcase, 2011. <br> <a href="pdfs/2011_Rojas_Refugio_Automated_Angiogenesis.pdf" target="_blank">[Poster]</a></li> 
+                </ul>
+            </div>
+
+            <!-- Teaching -->
+            <div class="col-md-8">    
+                <h2 id="teaching">Teaching</h2>
+                <h4>San José State University</h4>
+                <ul>
+                  <li>CMPE 255: Data Mining (Spring 2020, Fall 2020)</li>
+                  <li>CMPE 131: Software Engineering I (Fall 2019, Spring 2020, Spring 2021)</li>
+                </ul>
+            </div>
+            
+
+            <!-- Service -->
+            <div class="col-md-8">    
+                <h2 id="service">Service</h2>
+            </div>
+
+            <!-- Other people may like it too! -->
+            <div class="col-md-8" style="color:#b5bec9;font-size:0.8em; text-align: center;">
+              Thanks to <a href="https://github.com/mavroudisv/plain-academic">Plain Academic</a> and <a href="https://alisiahkoohi.github.io/">Ali Siahkoohi</a>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- /.container -->
+    
+    
+    <script>
+
+      const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+      
+      function switchTheme(e) {
+          if (e.target.checked) {
+              document.documentElement.setAttribute('data-theme', 'dark');
+          }
+          else {
+              document.documentElement.setAttribute('data-theme', 'light');
+          }
+      }
+      
+      toggleSwitch.addEventListener('change', switchTheme, false);
+      
+      function switchTheme(e) {
+          if (e.target.checked) {
+              document.documentElement.setAttribute('data-theme', 'dark');
+              localStorage.setItem('theme', 'dark'); //add this
+          }
+          else {
+              document.documentElement.setAttribute('data-theme', 'light');
+              localStorage.setItem('theme', 'light'); //add this
+          }
+      }
+      
+      
+      const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+      
+      if (currentTheme) {
+          document.documentElement.setAttribute('data-theme', currentTheme);
+      
+          if (currentTheme === 'dark') {
+              toggleSwitch.checked = true;
+          }
+      }
+      
+      </script>
+</body>
+
+</html>
