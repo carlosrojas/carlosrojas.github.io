@@ -118,14 +118,18 @@ body {
       border: none;
       font-weight: bold;
   }
+
+td{
+  vertical-align: text-top;
+}
+
+a, a:visited {
+  color: #a00;
+}
   
-  a, a:visited {
-      color: #a00;
-  }
-  
-  ul {
-      list-style: disc;
-  }
+ul {
+  list-style: disc;
+}
 /* ------ Content Box ------ */
 
 .row.doc {

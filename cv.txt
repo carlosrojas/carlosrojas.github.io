@@ -1,0 +1,162 @@
+Carlos Rojas
+Computer Engineering Department
+San Jose Staté University
+One Washington Square
+San José, CA 95192
+Email: carlos [dot] rojas [at] sjsu [dot]
+edu](mailto:carlos.rojas@sjsu.edu)
+ORCID: 0000-0001-7977-2289
+Website: carlosrojas [dot] xyz
+
+
+Professional Employment
+-----------------------------------------------------------------------
+  2019-present Assistant Professor, San José State University, San José, CA.
+               Tenure-track position in the Computer Engineering Department.
+
+  2018-2019    Postdoctoral Scholar, UC Davis Genome Center, Davis, CA.
+               Researcher in 3D genomic data with deep learning networks.
+
+  Summer 2014  Software Engineering Intern, MobiTV, Emeryville, CA.
+               Worked on internal code generation tools and built screen
+               saver for Android TV device.
+
+  Summer 2012  Visual Computing Intern, Intel, Folsom, CA.
+               Optimized Unreal Game Engine frame rates.
+
+  2011-2018    Graduate Researcher, UC Davis Computer Science, Davis, CA.
+               Graduate research in computational geometry
+
+Education
+-----------------------------------------------------------------------
+  2011-2018  Ph.D. computer science,
+             University of California, Davis, Davis, CA, USA.
+             Advisor: Prof. Nina Amenta.
+             Thesis: Parameterization of Triangle Surface Meshes for Shape Analysis.
+
+  2007-2011  B.S. computer science, University of California, Davis, Davis, CA, USA.
+             Minor in Mathematics
+
+Awards and Honors
+-----------------------------------------------------------------------
+  2020        San José State University College of Engineering Small Group Projects ($50,000)
+  2020        San José State University College of Engineering travel grant ($450)
+  2016-2017   Professors For The Future Fellowship from UC Davis ($3,000)
+  2014-2016   Travel Grant from UC Davis Computer Science Graduate Group ($3,000)
+  2012-2013   GEM Fellowship from The National GEM Consortium ($16,000 and one year of tuition)
+
+Publications
+-----------------------------------------------------------------------
+
+Conference Papers
+
+  2020  Nina Amenta and Carlos Rojas. Dihedral Rigidity and Deformation.
+        Computational Geometry.
+
+  2018  Nina Amenta, and Carlos Rojas. Dihedral Rigidity and Deformation.
+        Canadian Conference on Computational Geometry.
+
+Posters
+
+  2018  Carlos Rojas, Minh N. Tran, Linh Huynh, and Fereydoun Hormozdiari.
+        Machine learning approaches for comparative genome structure analysis.
+        American Society of Human Genetics.
+
+  2014  Carlos Rojas, Alex Tsui, Stewart He, Lance Simons, Shengren Li, and Nina
+        Amenta. Edge length interpolation. ACM Symposium on Solid and Physical Modeling.
+
+  2011  Carlos Rojas, Scott Refugio. Automated Angiogenesis Quantification.
+        UC Davis College of Engineering Senior Design Showcase.
+
+Service
+-----------------------------------------------------------------------
+
+University Service
+
+  2020-2021  College of engineering graduate curriculum committee
+
+             Chair of department graduate curriculum committee
+
+             Department website committee
+
+  2019-2020  Department undergraduate curriculum committee
+
+Reviewer
+
+  2021  IEEE International Conference on Big Data Service and Applications (BDS)
+
+Sub-Reviewer
+
+  2019  ACM Conference on Bioinformatics, Computational Biology, and Health
+        Informatics (ACM-BCB)
+
+        Intelligent Systems for Molecular Biology/European Conference on
+        Computational Biology (ISMB/ECCB).
+
+        Research in Computational Molecular Biology (RECOMB)
+
+Panels
+
+  2021  Faculty Conversation - Gradescope
+
+  2020  Workshop: How to use a stylus and a mobile device for whiteboard
+        collaboration in Zoom
+
+        Active learning for your remote teaching
+
+Academic Advising
+-----------------------------------------------------------------------
+
+M.S. Thesis Supervised
+
+  Spring 2021  Title: A Deep Learning Method for Comparing Hi-C Data
+               People: Sughosh Krishnamurth
+
+M.S. Projects Supervised
+
+  Spring 2021  Title:Qualitative Assessment with Machine Learning
+               People: Mitash Gaurh, Vasanthi Amoolya Koduri, Shalabh Neema, Mohammed
+               Farhaan Patel
+
+  Fall 2020  Title:Hi-C Super-Resolution
+             People: Khang Doan, Raymond Hong, Koushik Kumar Kamala, Mrunali Sanjay
+             Khandat
+
+             Title:Uncertainty Visualization
+             People: Wei He, Tian Lan, Amir Hossein Radman
+
+Grant Support
+-----------------------------------------------------------------------
+  2021-2022  Founder: San José State University Charles W. Davidson
+                College of Engineering
+             Title: DNA Assembly with Bioinformatics and Natural Language
+                Processing Algorithms
+             People: Carlos Rojas, Jorjeta Jetcheva, William Andreopoulos
+             Award: $50,000
+
+Teaching
+-----------------------------------------------------------------------
+  Intructor, San José State University
+
+  CMPE 255: Data Mining
+  Spring 2020, Fall 2020
+
+  CMPE 131: Software Engineering I
+  Fall 2019, Spring 2020, Spring 2021
+
+  Teaching Assistant, UC Davis
+
+  ECS 162: Web Programming
+  Spring 2017
+
+  ECS 140A: Programming Languages
+  Summer 2016
+
+  ECS 50: Computer Organization and Machine-Dependent Programming
+  Spring 2015, Summer 2016
+
+  ECS 40: Software Development and Object-Oriented Programming
+  Spring 2014, Fall 2015
+
+  ECS 20: Discrete Mathematics for Computer Science
+  Winter 2016
