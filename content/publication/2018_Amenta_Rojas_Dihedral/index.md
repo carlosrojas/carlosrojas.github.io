@@ -13,8 +13,8 @@ authors:
 #- "Equal contribution"
 #- "Equal contribution"
 
-date: "2020-10-01T00:00:00Z"
-doi: "10.1016/j.comgeo.2020.101657"
+date: "2018-08-01T00:00:00Z"
+doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2021-08-01T00:00:00Z"
@@ -23,12 +23,13 @@ publishDate: "2021-08-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Computational Geometry
+publication: Canadian Conference on Computational Geometry
+publication_short: CCCG
 
-abstract: We consider defining the embedding of a triangle mesh into $\mathbb{R}^3$, up to translation, rotation, and scale, by its vector of dihedral angles. On the theoretical side, we show that locally the map from realizable vectors of dihedrals to mesh embeddings is one-to-one almost everywhere. On the implementation side, we are interested in using the dihedral parameterization in shape analysis. This demands a way to visualize statistical results, for instance an average shape. To this end, we give a heuristic method for mapping interpolations in dihedral space to interpolations between input mesh embeddings, and we visualize statistical analyses of several families of organic shapes.
+abstract: We consider defining the embedding of a triangle mesh into $\mathbb{R}^3$, up to translation, rotation, and scale, by its vector of dihedral angles. Theoretically, we show that locally, almost everywhere, the map from realizable vectors of dihedrals to mesh embeddings is one-to-one. We experiment with a heuristic method for mapping straight-line interpolations in dihedral space to interpolations between mesh embeddings and produce smooth and intuitively appealing morphs between three-dimensional shapes.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
