@@ -1,0 +1,158 @@
+body {
+  font-family: Georgia, serif;
+  background-color: #f8f5f0;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  margin: 0.5rem 0 0;
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover,
+nav a.active {
+  border-color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.intro img {
+  border-radius: 8px;
+  max-width: 200px;
+}
+
+.intro .text {
+  max-width: 600px;
+}
+
+.intro h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.intro p {
+  margin: 0.5rem 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #444;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.posts {
+  margin-top: 3rem;
+}
+
+.posts h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.post {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.post h4 {
+  margin: 0 0 0.5rem;
+}
+
+.post p {
+  margin: 0.25rem 0;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #888;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #0066cc;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #f0f8ff;
+  transform: translateY(-2px);
+}
+
+.social-links svg {
+  width: 24px;
+  height: 24px;
+}
+
+.social-links span {
+  color: #0066cc;
+  font-weight: bold;
+  font-size: 16px;
+}
+
